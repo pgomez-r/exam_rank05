@@ -5,9 +5,9 @@
 
 class ATarget;
 
-class BrickWall : public ATarget{
+class Dummy : public ATarget{
 	public:
-		BrickWall();
-		~BrickWall();
+		Dummy();
+		~Dummy();
 		ATarget *clone() const;
 };
